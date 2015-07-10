@@ -905,3 +905,29 @@ body {
 section#how {
     padding: 100px 0;
 }
+
+#phonebeacon {
+    position: absolute;
+    display: inline;
+    left: 7em;
+    top: -8em;
+    padding: 0;
+}
+
+#beacon {
+    position: absolute;
+    display: inline;
+    right: -11em;
+    top: -4em;
+    padding: 0;
+}
+
+#walkthrough {
+    position: relative;
+    display: inline;
+    right: 28em;
+    top: 4em;
+    padding: 0;
+
+}
+
