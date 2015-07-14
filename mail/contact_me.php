@@ -36,8 +36,8 @@ $smtp = Mail::factory('smtp', array(
         'host' => 'ssl://smtp.gmail.com',
         'port' => '465',
         'auth' => true,
-        'username' => 'johndoe@gmail.com',
-        'password' => 'passwordxxx'
+        'username' => 'info@addolabs.co',
+        'password' => 'creatediscoversmile'
     ));
 
 $mail = $smtp->send($to, $headers, $body);
