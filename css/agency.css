@@ -924,10 +924,21 @@ section#how {
 
 #walkthrough {
     position: relative;
-    display: inline;
-    right: 28em;
-    top: 4em;
-    padding: 0;
+    display: inline-block;
+    padding-bottom: 10em;
+    margin: 0;
 
 }
 
+.email-container {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.email-body {
+    background-color: #48c8ab;
+    height:70vh;
+    width: 80vw;
+}
